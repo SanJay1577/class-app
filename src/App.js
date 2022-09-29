@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Counter from './Components/Counter';
 import Greetings from './Components/Greetings';
 import Header from './Components/Header';
 import Toggle from './Components/Toggle';
@@ -24,6 +25,10 @@ export default class App extends Component {
         <h4>Toogle functionaly in class</h4>
         <Toggle/>
         
+      </div>
+      <div>
+        <h3>Counter functionality</h3>
+        <Counter/>
       </div>
         </div>
     )
